@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Name - Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css"> <!-- optional if you want to add custom styles -->
+      </head>
+      
+      <body class="bg-gray-50 text-gray-900">
+
+        <!-- Navbar -->
+        <nav class="bg-white shadow-md fixed top-0 w-full z-10">
+          <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="text-2xl font-bold">YourName</div>
+            <ul class="hidden md:flex space-x-6">
+              <li><a href="#about" class="hover:text-blue-500">About</a></li>
+              <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+              <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+              <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <!-- Hero Section -->
+        <section id="hero" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-400 to-purple-500 text-white">
+          <h1 class="text-5xl font-bold mb-4">Hi, I'm Your Name</h1>
+          <p class="text-xl mb-8">A Front-End Web Developer</p>
+          <a href="#projects" class="bg-white text-blue-600 font-semibold py-2 px-4 rounded-full hover:bg-blue-100 transition">View My Work</a>
+        </section>
+      
+        <!-- About Section -->
+        <section id="about" class="container mx-auto py-20 px-6">
+          <h2 class="text-3xl font-bold mb-6">About Me</h2>
+          <p class="text-lg leading-relaxed">
+            I am a passionate front-end developer who loves building beautiful and functional websites...
+          </p>
+        </section>
+      
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-100 py-20 px-6">
+          <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+              <div class="bg-white p-6 shadow rounded-lg">HTML</div>
+              <div class="bg-white p-6 shadow rounded-lg">CSS</div>
+              <div class="bg-white p-6 shadow rounded-lg">JavaScript</div>
+              <div class="bg-white p-6 shadow rounded-lg">TailwindCSS</div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Projects Section -->
+        <section id="projects" class="container mx-auto py-20 px-6">
+          <h2 class="text-3xl font-bold mb-6">Projects</h2>
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project Card -->
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:scale-105 transition">
+              <img src="images/project1.png" alt="Project 1" class="rounded mb-4">
+              <h3 class="text-2xl font-semibold mb-2">Project One</h3>
+              <p class="mb-4">Short description about your project.</p>
+              <a href="#" class="text-blue-500 hover:underline">View Project</a>
+            </div>
+            <!-- Another Project Card -->
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:scale-105 transition">
+              <img src="images/project2.png" alt="Project 2" class="rounded mb-4">
+              <h3 class="text-2xl font-semibold mb-2">Project Two</h3>
+              <p class="mb-4">Short description about your project.</p>
+              <a href="#" class="text-blue-500 hover:underline">View Project</a>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-100 py-20 px-6">
+          <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <form class="max-w-lg mx-auto flex flex-col space-y-4">
+              <input type="text" placeholder="Name" class="p-3 border rounded">
+              <input type="email" placeholder="Email" class="p-3 border rounded">
+              <textarea placeholder="Message" class="p-3 border rounded h-32"></textarea>
+              <button type="submit" class="bg-blue-500 text-white py-3 rounded hover:bg-blue-600 transition">Send Message</button>
+            </form>
+          </div>
+        </section>
+      
+        <script src="script.js"></script>
+      </body>
+      
