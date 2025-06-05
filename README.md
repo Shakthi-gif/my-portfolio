@@ -6,7 +6,7 @@ A personal portfolio website to showcase my projects, skills, and contact detail
 
 ## 🖼️ Live Demo
 
-🔗 **Visit My Portfolio**:  https://github.com/Shakthi-gif/my-portfolio.git
+🔗 **Visit My Portfolio**: gh repo clone Shakthi-gif/my-portfolio
 
 
 ---
