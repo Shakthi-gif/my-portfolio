@@ -6,7 +6,7 @@ A personal portfolio website to showcase my projects, skills, and contact detail
 
 ## 🖼️ Live Demo
 
-🔗 **Visit My Portfolio**: [https://your-portfolio.netlify.app](https://your-portfolio.netlify.app)  
+🔗 **Visit My Portfolio**:  
 
 
 ---
@@ -16,7 +16,7 @@ A personal portfolio website to showcase my projects, skills, and contact detail
 - 👤 About Me section
 - 🛠️ Skills & Technologies
 - 🗂️ Project Gallery
-- 📬 Contact Form or Contact Info
+- 📬 Contact Form 
 - 💻 Fully responsive layout for all devices
 
 ---
@@ -24,10 +24,9 @@ A personal portfolio website to showcase my projects, skills, and contact detail
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 / Tailwind / Bootstrap 
+- CSS3 / Bootstrap 
 - JavaScript / React 
 - 
 
----
 
 
