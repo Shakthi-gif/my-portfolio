@@ -13,7 +13,7 @@
   
   /* Navigation */
   nav {
-    background: #333;
+    background: #e7d8d8;
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -45,7 +45,7 @@
   /* Hero Section */
   #hero {
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(116, 118, 240);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -86,11 +86,13 @@
     border: none;
     cursor: pointer;
   }
+ 
   
   /* Responsive */
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;
     }
+    
   }
   
